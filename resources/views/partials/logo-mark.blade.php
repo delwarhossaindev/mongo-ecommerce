@@ -1,0 +1,18 @@
+@php
+    $size  = $size  ?? 48;
+    $title = $title ?? 'আমঘর — AamGhor';
+@endphp
+<svg width="{{ $size }}" height="{{ $size }}" viewBox="350 160 480 400"
+     xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="{{ $title }}">
+    <g transform="translate(180,120)">
+        <path d="M180 420L310 120C320 95 355 95 365 120L500 420H435L395 330H285L245 420H180Z" fill="#2F5D2F"/>
+        <path d="M295 320L340 250L385 320" stroke="white" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <rect x="320" y="340" width="18" height="18" fill="white"/>
+        <rect x="345" y="340" width="18" height="18" fill="white"/>
+        <rect x="320" y="365" width="18" height="18" fill="white"/>
+        <rect x="345" y="365" width="18" height="18" fill="white"/>
+        <path d="M430 145C510 140 570 210 565 300C562 355 535 390 542 430C548 465 575 480 595 475C585 500 560 515 530 510C465 500 410 435 408 345C406 250 350 185 430 145Z" fill="#F4B128"/>
+        <path d="M455 115C515 70 595 85 640 130C575 145 515 145 455 115Z" fill="#4C8C2B"/>
+        <path d="M445 105C440 85 445 65 460 50" stroke="#4C8C2B" stroke-width="10" stroke-linecap="round" fill="none"/>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+User-agent: *
+Allow: /
+Allow: /shop
+Allow: /shop/*
+
+# Block private/transactional pages from indexing
+Disallow: /login
+Disallow: /register
+Disallow: /logout
+Disallow: /profile
+Disallow: /cart
+Disallow: /checkout
+Disallow: /orders
+Disallow: /orders/*
+Disallow: /payment/
+Disallow: /api/
+
+# Allow common search engine bots full access (besides above rules)
+User-agent: Googlebot
+Allow: /
+Disallow: /login
+Disallow: /register
+Disallow: /profile
+Disallow: /cart
+Disallow: /checkout
+Disallow: /orders
+Disallow: /payment/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /login
+Disallow: /register
+Disallow: /profile
+Disallow: /cart
+Disallow: /checkout
+
+# Sitemap
+Sitemap: /sitemap.xml
